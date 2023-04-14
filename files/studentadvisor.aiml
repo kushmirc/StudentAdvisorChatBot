@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+    <category>
+        <pattern>hi</pattern>
+        <template>Hi! I'm kushbot, and I'm here to help you explore some tech career options. 
+        <br></br><br></br>Let's get started, please type your name, starting with "my name is"...</template>
+    </category>
+    <category>
+        <pattern>my name is *</pattern>
+        <template>Thank you, <set name = "name" ><star/></set>.
+        <br></br>Are you a computer science major?
+        <button>
+            <text>Yes</text>
+            <postback>cs</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>noncs</postback>
+        </button>
+        </template>
+    </category>
+      
+    <category>
+        <pattern>cs</pattern>
+        <template>Great! Let's find a good career fit for you.
+        <br></br>Do you prefer building and creating things, or do you prefer working with things which are already built?
+        <button>
+            <text>Building things</text>
+            <postback>building</postback>
+        </button>
+        <button>
+            <text>Working with things</text>
+            <postback>working</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>noncs</pattern>
+        <template>Sorry, I'm only designed to provide advice for Computer Science majors.</template>
+    </category>
+    
+    
+    <category>
+        <pattern>what did you just say</pattern>
+        <template><response index = "1"/></template>
+    </category>
+    
+    <category>
+        <pattern>I am lost</pattern>
+        <template>No problem! Let's refocus.<br></br>Are you a computer science major?
+        <button>
+            <text>Yes</text>
+            <postback>cs</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>noncs</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I do not understand</pattern>
+        <template>No problem! Let's refocus.<br></br>Are you a computer science major?
+        <button>
+            <text>Yes</text>
+            <postback>cs</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>noncs</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>who are you</pattern>
+        <template>I'm kushbot, pleased to meet you.</template>
+    </category>
+    
+    <category>
+        <pattern>what are you</pattern>
+        <template>I'm an online career advisor, at your service.</template>
+    </category>
+    
+</aiml>
+
+
+
