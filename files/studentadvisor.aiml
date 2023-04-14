@@ -21,6 +21,11 @@
         </template>
     </category>
       
+      <category>
+        <pattern>noncs</pattern>
+        <template>Sorry, I'm only designed to provide advice for Computer Science majors.</template>
+    </category>
+      
     <category>
         <pattern>cs</pattern>
         <template>Great! Let's find a good career fit for you.
@@ -37,8 +42,8 @@
     </category>
     
     <category>
-        <pattern>noncs</pattern>
-        <template>Sorry, I'm only designed to provide advice for Computer Science majors.</template>
+        <pattern>building</pattern>
+        <template>I see. You like building things. Fantastic!<br></br>Do you like creating designs and graphics, or are you more into coding and logic?</template>
     </category>
     
     
