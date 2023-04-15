@@ -43,7 +43,36 @@
     
     <category>
         <pattern>building</pattern>
-        <template>I see. You like building things. Fantastic!<br></br>Do you like creating designs and graphics, or are you more into coding and logic?</template>
+        <template>I see. You like building things. Fantastic!<br></br>Do you like creating designs and web pages, or are you more into coding and logic?
+        <button>
+            <text>Designs and webpages</text>
+            <postback>design</postback>
+        </button>
+        <button>
+            <text>Coding and logic</text>
+            <postback>coding</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>design</pattern>
+        <template>Excellent. You may be a good fit for a UI/UX developer. Here is a resource for you to learn more about this role and see if it's right for you!
+        <link>
+            <text>UI/UX Developer Career</text>
+            <url>https://careerkarma.com/careers/design/</url>
+        </link>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>coding</pattern>
+        <template>Excellent. You may be a good fit for a backend developer. Here is a resource for you to learn more about this role and see if it's right for you!
+        <link>
+            <text>Backend Developer Career</text>
+            <url>https://www.careerexplorer.com/careers/back-end-developer/</url>
+        </link>
+        </template>
     </category>
     
     
