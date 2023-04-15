@@ -67,7 +67,7 @@
     
      <category>
         <pattern>coding</pattern>
-        <template>Excellent. You may be a good fit for a backend developer. Here is a resource for you to learn more about this role and see if it's right for you!
+        <template>Excellent. You may be a good fit for a backend developer. Here's a resource for you to learn more about this role and see if it's right for you!
         <link>
             <text>Backend Developer Career</text>
             <url>https://www.careerexplorer.com/careers/back-end-developer/</url>
@@ -92,7 +92,7 @@
     
     <category>
         <pattern>helping</pattern>
-        <template>It sounds like you're a people person. You may be great in an IT Help Desk role. Here is a resource for you to learn more about it 
+        <template>It sounds like you're a people person. You may be great in an IT Help Desk role. Here's a resource for you to learn more about it 
         and see if it's right for you!
         <link>
             <text>IT Help Desk Career</text>
@@ -103,8 +103,7 @@
     
     <category>
         <pattern>information</pattern>
-        <template>Ok, you like working with information for the the bulk of your time. Do you like working regularly with data, or are 
-        you more interested in software?
+        <template>Ok, you like working with information for the the bulk of your time. 
         <br></br>Do you like working regularly with data, or are you more interested in software?
         <button>
             <text>Data</text>
@@ -119,7 +118,7 @@
     
     <category>
         <pattern>data</pattern>
-        <template>Got it. You may be a good fit for a Data Analyst. Here is a resource for you to learn more about this role and see if it's right for you!
+        <template>Got it. You may be a good fit for a Data Analyst. Here's a resource for you to learn more about this role and see if it's right for you!
         <link>
             <text>Data Analyst</text>
             <url>https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide</url>
@@ -129,7 +128,7 @@
     
     <category>
         <pattern>software</pattern>
-        <template>Got it. You may be a good fit for a Software Tester. Here is a resource for you to learn more about this role and see if it's right for you!
+        <template>Got it. You may be a good fit for a Software Tester. Here's a resource for you to learn more about this role and see if it's right for you!
         <link>
             <text>Software Tester</text>
             <url>https://www.guru99.com/software-testing-career-complete-guide.html</url>
