@@ -4,15 +4,6 @@
     <pattern>*</pattern>
     <template>Hmm, I don't understand that, please try a different response.</template>
   </category>
-
-
-
-            <random>
-                <li>Hi</li>
-                <li>Pleased to make your acquaintance.</li>
-                <li>Nice to meet you.</li>
-            </random>
-
 </aiml>
 
             
