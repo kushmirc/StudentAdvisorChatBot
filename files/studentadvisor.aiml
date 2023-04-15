@@ -75,6 +75,46 @@
         </template>
     </category>
     
+    <category>
+        <pattern>working</pattern>
+        <template>Understood, you prefer working with things, rather than building them from scratch.
+        <br></br>Are you passionate about helping people on a regular basis, or do you prefer interacting with information?
+        <button>
+            <text>Helping people</text>
+            <postback>helping</postback>
+        </button>
+        <button>
+            <text>Interacting with Information</text>
+            <postback>information</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>helping</pattern>
+        <template>It sounds like you're a people person. You may be great in an IT Help Desk role. Here is a resource for you to learn more about it 
+        and see if it's right for you!
+        <link>
+            <text>IT Help Desk Career</text>
+            <url>https://www.zippia.com/help-desk-specialist-jobs/</url>
+        </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>working</pattern>
+        <template>Understood, you prefer working with things, rather than building them from scratch.
+        <br></br>Are you passionate about helping people on a regular basis, or do you prefer interacting with information?
+        <button>
+            <text>Helping people</text>
+            <postback>helping</postback>
+        </button>
+        <button>
+            <text>Interacting with Information</text>
+            <postback>information</postback>
+        </button>
+        </template>
+    </category>
     
     <category>
         <pattern>what did you just say</pattern>
