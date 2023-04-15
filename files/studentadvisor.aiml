@@ -3,7 +3,7 @@
 	<!-- insert your AIML categories here -->
     <category>
         <pattern>hi</pattern>
-        <template>Hi! I'm kushbot, and I'm here to help you explore some tech career options. 
+        <template>Hi! I'm kushbot, and I'm here to help you explore some computing career options. 
         <br></br><br></br>Let's get started, please type your name, starting with "my name is"...</template>
     </category>
     <category>
