@@ -117,7 +117,25 @@
         </template>
     </category>
     
+    <category>
+        <pattern>data</pattern>
+        <template>Got it. You may be a good fit for a Data Analyst. Here is a resource for you to learn more about this role and see if it's right for you!
+        <link>
+            <text>Data Analyst</text>
+            <url>https://www.zippia.com/help-desk-specialist-jobs/</url>
+        </link>
+        </template>
+    </category>
     
+    <category>
+        <pattern>software</pattern>
+        <template>Got it. You may be a good fit for a Software Tester. Here is a resource for you to learn more about this role and see if it's right for you!
+        <link>
+            <text>Software Tester</text>
+            <url>https://www.zippia.com/help-desk-specialist-jobs/</url>
+        </link>
+        </template>
+    </category>
     
     <category>
         <pattern>what did you just say</pattern>
