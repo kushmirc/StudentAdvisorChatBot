@@ -78,13 +78,13 @@
     <category>
         <pattern>working</pattern>
         <template>Understood, you prefer working with things, rather than building them from scratch.
-        <br></br>Are you passionate about helping people on a regular basis, or do you prefer interacting with information?
+        <br></br>Are you passionate about helping people on a regular basis, or do you prefer analyzing information?
         <button>
             <text>Helping people</text>
             <postback>helping</postback>
         </button>
         <button>
-            <text>Interacting with Information</text>
+            <text>Analyzing Information</text>
             <postback>information</postback>
         </button>
         </template>
@@ -102,19 +102,22 @@
     </category>
     
     <category>
-        <pattern>working</pattern>
-        <template>Understood, you prefer working with things, rather than building them from scratch.
-        <br></br>Are you passionate about helping people on a regular basis, or do you prefer interacting with information?
+        <pattern>information</pattern>
+        <template>Ok, you like working with information for the the bulk of your time. Do you like working regularly with data, or are 
+        you more interested in software?
+        <br></br>Do you like working regularly with data, or are you more interested in software?
         <button>
-            <text>Helping people</text>
-            <postback>helping</postback>
+            <text>Data</text>
+            <postback>data</postback>
         </button>
         <button>
-            <text>Interacting with Information</text>
-            <postback>information</postback>
+            <text>Software</text>
+            <postback>software</postback>
         </button>
         </template>
     </category>
+    
+    
     
     <category>
         <pattern>what did you just say</pattern>
